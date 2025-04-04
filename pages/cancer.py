@@ -259,7 +259,22 @@ with tab1:
     
     # Create a more organized layout with columns
     col1, col2, col3 = st.columns([1, 1, 1])
-    
+    def apply_custom_styles():
+    st.markdown("""
+        <style>
+            /* Fix the black input field issue */
+            div[data-testid="stNumberInput"] input {
+                background-color: white !important;
+                color: black !important;
+                border-radius: 5px !important;
+            }
+            div[data-testid="stSlider"] .st-br {
+                background-color: white !important;
+            }
+        </style>
+    """, unsafe_allow_html=True)
+
+apply_custom_styles()
     with col1:
         st.markdown("""
         <div class="card">
