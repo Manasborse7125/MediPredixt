@@ -521,13 +521,14 @@ def render_html(html_content):
 def apply_custom_styles():
     st.markdown("""
         <style>
-            body {
-                background-color: #121212;
-                color: white;
+            /* Fix the black input field issue */
+            div[data-testid="stNumberInput"] input {
+                background-color: white !important;
+                color: black !important;
+                border-radius: 5px !important;
             }
-            .stTextInput, .stButton {
-                background-color: #1E1E1E;
-                color: white;
+            div[data-testid="stSlider"] .st-br {
+                background-color: white !important;
             }
         </style>
     """, unsafe_allow_html=True)
