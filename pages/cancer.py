@@ -248,18 +248,7 @@ st.markdown(
     """, 
     unsafe_allow_html=True
 )
-
-# Create tabs for different sections
-tab1, tab2, tab3 = st.tabs(["📝 Risk Assessment", "📊 Risk Factors", "ℹ️ About Cancer"])
-
-with tab1:
-    st.markdown("<div class='input-section'>", unsafe_allow_html=True)
-    st.subheader("📋 Personal Health Information")
-    st.markdown("Please provide accurate information for the most reliable assessment.")
-    
-    # Create a more organized layout with columns
-    col1, col2, col3 = st.columns([1, 1, 1])
-    def apply_custom_styles():
+def apply_custom_styles():
     st.markdown("""
         <style>
             /* Fix the black input field issue */
@@ -275,6 +264,18 @@ with tab1:
     """, unsafe_allow_html=True)
 
 apply_custom_styles()
+
+# Create tabs for different sections
+tab1, tab2, tab3 = st.tabs(["📝 Risk Assessment", "📊 Risk Factors", "ℹ️ About Cancer"])
+
+with tab1:
+    st.markdown("<div class='input-section'>", unsafe_allow_html=True)
+    st.subheader("📋 Personal Health Information")
+    st.markdown("Please provide accurate information for the most reliable assessment.")
+    
+    # Create a more organized layout with columns
+    col1, col2, col3 = st.columns([1, 1, 1])
+
     with col1:
         st.markdown("""
         <div class="card">
