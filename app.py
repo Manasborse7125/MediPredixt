@@ -518,6 +518,22 @@ def local_css():
 def render_html(html_content):
     components.html(html_content, height=50)
 
+def apply_custom_styles():
+    st.markdown("""
+        <style>
+            body {
+                background-color: #121212;
+                color: white;
+            }
+            .stTextInput, .stButton {
+                background-color: #1E1E1E;
+                color: white;
+            }
+        </style>
+    """, unsafe_allow_html=True)
+
+apply_custom_styles()
+
 def main():
     local_css()
     # create_vision_mission()
