@@ -538,7 +538,7 @@ def main():
     local_css()
     # create_vision_mission()
     # create_about_section()
-    st.markdown('<div class="header animate"><h1 style="font-size: 3rem;">MedPredixt</h1><p style="font-size: 1.5rem;">Advanced Machine Learning Lab Prediction System</p></div>', unsafe_allow_html=True)
+    st.markdown('<div class="header animate"><h1 style="font-size: 3rem;">MediPredixt</h1><p style="font-size: 1.5rem;">Advanced Machine Learning Lab Prediction System</p></div>', unsafe_allow_html=True)
     st.markdown("""
     <div class="navbar">
         <div class="logo-container">
