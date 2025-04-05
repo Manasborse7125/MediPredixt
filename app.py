@@ -881,12 +881,12 @@ def footer():
     with cols[2]:
         st.markdown("### Contact Us")
         st.markdown("""
-        **Address:** Medical Technology Park,  
-        Innovation Avenue, Health District
+        **Address:** MediPredixt Digital Park,  
+        Health Avenue, Mumbai - 400001
         
         **Email:** info@medipredixt.com
         
-        **Phone:** +1 (800) 555-MEDI
+        **Phone:** +91 9322620958
         """)
     
     with cols[3]:
