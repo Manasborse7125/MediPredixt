@@ -2,9 +2,9 @@ streamlit
 streamlit-lottie
 numpy
 pandas
-scikit-learn
 matplotlib
 Pillow
+scikit-learn==1.6.0
 requests
 seaborn
 fpdf
