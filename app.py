@@ -25,7 +25,7 @@ def local_css():
     }
     
     .stApp {
-        background-color: #f8f9fa;
+        background-color:#f8f9fa;
     }
     
     /* Header Styles */
@@ -512,6 +512,33 @@ def local_css():
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     }
+
+    .custom-button-container {
+        display: flex;
+        gap: 10px;
+    }
+
+    .custom-button-container form {
+        margin-bottom: 0;
+    }
+
+    .login-button button {
+        border: 2px solid #3b82f6;
+        color: #3b82f6;
+        background-color: white;
+        padding: 0.5em 1.5em;
+        border-radius: 6px;
+        font-weight: 500;
+    }
+
+    .signup-button button {
+        border: none;
+        background-color: #3b82f6;
+        color: white;
+        padding: 0.5em 1.5em;
+        border-radius: 6px;
+        font-weight: 500;
+    }          
     </style>
     """, unsafe_allow_html=True)
 
@@ -521,43 +548,43 @@ def render_html(html_content):
 def apply_custom_styles():
     st.markdown("""
         <style>
-            /* Fix the black input field issue */
-            div[data-testid="stNumberInput"] input {
-                background-color: white !important;
-                color: black !important;
-                border-radius: 5px !important;
+            body {
+                background-color: #121212;
+                color: white;
             }
-            div[data-testid="stSlider"] .st-br {
-                background-color: white !important;
+            .stTextInput, .stButton {
+                background-color: #1E1E1E;
+                color: white;
             }
         </style>
     """, unsafe_allow_html=True)
 
 apply_custom_styles()
 
+
 def main():
     local_css()
     # create_vision_mission()
     # create_about_section()
-    st.markdown('<div class="header animate"><h1 style="font-size: 3rem;">MediPredixt</h1><p style="font-size: 1.5rem;">Advanced Machine Learning Lab Prediction System</p></div>', unsafe_allow_html=True)
-    st.markdown("""
-    <div class="navbar">
-        <div class="logo-container">
-        </div>
-        <div class="nav-links"> 
-            <a href="#" class="nav-link">Home</a>
-            <a href="#features" class="nav-link">Features</a>
-            <a href="#about" class="nav-link">About</a>
-            <a href="#team" class="nav-link">Team</a>
-            <a href="#support" class="nav-link">Support</a>
-        </div>
-        <div class="auth-buttons">
-            <button class="btn btn-login">Log In</button>
-            <button class="btn btn-signup">Sign Up</button>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
-    
+    st.markdown('<div class="header animate"><h1 style="font-size: 3rem;">MedPredixt</h1><p style="font-size: 1.5rem;">Advanced Machine Learning Lab Prediction System</p></div>', unsafe_allow_html=True)
+    # st.markdown("""
+    # <div class="navbar">
+    #     <div class="logo-container">
+    #     </div>
+    #     <div class="nav-links"> 
+    #         <a href="#" class="nav-link">Home</a>
+    #         <a href="#features" class="nav-link">Features</a>
+    #         <a href="#about" class="nav-link">About</a>
+    #         <a href="#team" class="nav-link">Team</a>
+    #         <a href="#support" class="nav-link">Support</a>
+    #     </div>
+    #     <div class="auth-buttons">
+    #         <button class="btn btn-login">Log In</button>
+    #         <button class="btn btn-signup">Sign Up</button>
+    #     </div>
+    # </div>
+    # """, unsafe_allow_html=True)
+
     # Hero Section
     st.markdown("""
     <div class="hero-section animated">
@@ -572,10 +599,11 @@ def main():
             </div>
         </div>
         <div class="hero-image">
-            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_5njmohct.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+            <img src="https://www.thetimes.com/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F20549920-bb0f-11e7-8b2e-f28d30e9c9fd.jpg?crop=2667%2C1500%2C0%2C0" style="width: 550px; height: 300px;" alt="Doctor Image">
         </div>
     </div>
-    """,unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
+
     
     # Add Lottie animation script
     components.html("""
