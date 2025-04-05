@@ -599,7 +599,7 @@ def main():
             </div>
         </div>
         <div class="hero-image">
-            <img src="https://www.thetimes.com/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F20549920-bb0f-11e7-8b2e-f28d30e9c9fd.jpg?crop=2667%2C1500%2C0%2C0" style="width: 550px; height: 300px;" alt="Doctor Image">
+            <img src="https://www.thetimes.com/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F20549920-bb0f-11e7-8b2e-f28d30e9c9fd.jpg?crop=2667%2C1500%2C0%2C0" style="width: 600px; height: 300px;" alt="Doctor Image">
         </div>
     </div>
     """, unsafe_allow_html=True)
