@@ -774,7 +774,7 @@ def main():
                 <h3 class="team-name">Manas Borse</h3>
                 <p class="team-position">Team Lead</p>
                 <p class="team-bio">
-                    Manas leads our medical research team with over 15 years of experience in oncology and preventive medicine.
+                    Manas Borse is a passionate data science enthusiast focused on building impactful healthcare solutions using machine learning.
                 </p>
                 <div class="team-social">
                     <a href="linkedin.com/in/manas-borse-485028257/" class="social-link">LinkedIn</a>
@@ -789,10 +789,10 @@ def main():
         <div class="team-card">
             <img src="https://source.unsplash.com/featured/?programmer" width="100%" height="200" style="object-fit: cover;">
             <div class="team-info">
-                <h3 class="team-name">Alex Chen</h3>
-                <p class="team-position">AI Research Lead</p>
+                <h3 class="team-name">Vyom Adhyaru</h3>
+                <p class="team-position">Frontend Designer</p>
                 <p class="team-bio">
-                    Alex specializes in machine learning algorithms for medical diagnostics with a Ph.D. in Computational Biology.
+                     Vyom is a creative frontend designer with a keen eye for crafting intuitive and responsive user interfaces.
                 </p>
                 <div class="team-social">
                     <a href="#" class="social-link">LinkedIn</a>
@@ -810,10 +810,10 @@ def main():
         <div class="team-card">
             <img src="https://source.unsplash.com/featured/?scientist" width="100%" height="200" style="object-fit: cover;">
             <div class="team-info">
-                <h3 class="team-name">Dr. Michael Rodriguez</h3>
-                <p class="team-position">Data Science Director</p>
+                <h3 class="team-name">Durgresh Agrawal</h3>
+                <p class="team-position">Backend Designer</p>
                 <p class="team-bio">
-                    Dr. Rodriguez brings expertise in statistical modeling and health data analytics with 10+ years in epidemiology.
+                    Durgresh Agrawal skilled backend developer passionate about building robust, scalable systems that power intelligent healthcare solutions.
                 </p>
                 <div class="team-social">
                     <a href="#" class="social-link">LinkedIn</a>
@@ -828,10 +828,10 @@ def main():
         <div class="team-card">
             <img src="https://source.unsplash.com/featured/?designer" width="100%" height="200" style="object-fit: cover;">
             <div class="team-info">
-                <h3 class="team-name">Emily Parker</h3>
-                <p class="team-position">UX/UI Lead</p>
+                <h3 class="team-name">Raj Deore</h3>
+                <p class="team-position">DataBase Connecter</p>
                 <p class="team-bio">
-                    Emily ensures our platform is accessible, intuitive, and effective for users of all technical backgrounds.
+                   Raj backend developer proficient in designing and integrating efficient databases for intelligent healthcare systems.
                 </p>
                 <div class="team-social">
                     <a href="#" class="social-link">LinkedIn</a>
