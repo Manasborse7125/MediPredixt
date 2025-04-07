@@ -769,7 +769,6 @@ def main():
     with col1:
         st.markdown("""
         <div class="team-card">
-            <img src="me.jpg" width="100%" height="200" style="object-fit: cover;">
             <div class="team-info">
                 <h3 class="team-name">Manas Borse</h3>
                 <p class="team-position">Training Machine Learning Model</p>
@@ -786,7 +785,6 @@ def main():
     with col2:
         st.markdown("""
         <div class="team-card">
-            <img src="https://source.unsplash.com/featured/?programmer" width="100%" height="200" style="object-fit: cover;">
             <div class="team-info">
                 <h3 class="team-name">Vyom Adhyaru</h3>
                 <p class="team-position">UI/UX Designer</p>
@@ -806,7 +804,6 @@ def main():
     with col3:
         st.markdown("""
         <div class="team-card">
-            <img src="https://source.unsplash.com/featured/?scientist" width="100%" height="200" style="object-fit: cover;">
             <div class="team-info">
                 <h3 class="team-name">Durgresh Agrawal</h3>
                 <p class="team-position">Python Coder</p>
@@ -823,7 +820,6 @@ def main():
     with col4:
         st.markdown("""
         <div class="team-card">
-            <img src="https://source.unsplash.com/featured/?designer" width="100%" height="200" style="object-fit: cover;">
             <div class="team-info">
                 <h3 class="team-name">Raj Deore</h3>
                 <p class="team-position">Python Coder</p>
