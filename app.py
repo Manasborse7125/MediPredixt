@@ -772,13 +772,12 @@ def main():
             <img src="me.jpg" width="100%" height="200" style="object-fit: cover;">
             <div class="team-info">
                 <h3 class="team-name">Manas Borse</h3>
-                <p class="team-position">Team Lead</p>
+                <p class="team-position">Training Machine Learning Model</p>
                 <p class="team-bio">
                     Manas Borse is a passionate data science enthusiast focused on building impactful healthcare solutions using machine learning.
                 </p>
                 <div class="team-social">
                     <a href="linkedin.com/in/manas-borse-485028257/" class="social-link">LinkedIn</a>
-                    <a href="#" class="social-link">Twitter</a>
                 </div>
             </div>
         </div>
@@ -790,13 +789,12 @@ def main():
             <img src="https://source.unsplash.com/featured/?programmer" width="100%" height="200" style="object-fit: cover;">
             <div class="team-info">
                 <h3 class="team-name">Vyom Adhyaru</h3>
-                <p class="team-position">Frontend Designer</p>
+                <p class="team-position">UI/UX Designer</p>
                 <p class="team-bio">
-                     Vyom is a creative frontend designer with a keen eye for crafting intuitive and responsive user interfaces.
+                     Vyom is a creative UI/UX Designer with a keen eye for crafting intuitive and responsive user interfaces.
                 </p>
                 <div class="team-social">
-                    <a href="#" class="social-link">LinkedIn</a>
-                    <a href="#" class="social-link">Github</a>
+                    <a href="https://www.linkedin.com/in/vyom-adhyaru-b7a77a20b/" class="social-link">LinkedIn</a>
                 </div>
             </div>
         </div>
@@ -811,13 +809,12 @@ def main():
             <img src="https://source.unsplash.com/featured/?scientist" width="100%" height="200" style="object-fit: cover;">
             <div class="team-info">
                 <h3 class="team-name">Durgresh Agrawal</h3>
-                <p class="team-position">Backend Designer</p>
+                <p class="team-position">Python Coder</p>
                 <p class="team-bio">
-                    Durgresh Agrawal skilled backend developer passionate about building robust, scalable systems that power intelligent healthcare solutions.
+                    Durgresh Agrawal skilled Python Developer passionate about building robust, scalable systems that power intelligent healthcare solutions.
                 </p>
                 <div class="team-social">
-                    <a href="#" class="social-link">LinkedIn</a>
-                    <a href="#" class="social-link">ResearchGate</a>
+                    <a href="https://www.linkedin.com/in/durgesh-agrawal-46730b285/" class="social-link">LinkedIn</a>
                 </div>
             </div>
         </div>
@@ -829,13 +826,12 @@ def main():
             <img src="https://source.unsplash.com/featured/?designer" width="100%" height="200" style="object-fit: cover;">
             <div class="team-info">
                 <h3 class="team-name">Raj Deore</h3>
-                <p class="team-position">DataBase Connecter</p>
+                <p class="team-position">Python Coder</p>
                 <p class="team-bio">
-                   Raj backend developer proficient in designing and integrating efficient databases for intelligent healthcare systems.
+                   Raj Python Coder proficient in designing and integrating efficient databases for intelligent healthcare systems.
                 </p>
                 <div class="team-social">
-                    <a href="#" class="social-link">LinkedIn</a>
-                    <a href="#" class="social-link">Dribbble</a>
+                    <a href="" class="social-link">LinkedIn</a>
                 </div>
             </div>
         </div>
@@ -889,11 +885,11 @@ def footer():
         **Phone:** +91 9322620958
         """)
     
-    with cols[3]:
-        st.markdown("### Newsletter")
-        st.text_input("Email Address")
-        st.button("Subscribe", key="footer_subscribe")
-        st.markdown("Stay updated with our latest research and innovations")
+    # with cols[3]:
+    #     st.markdown("### Newsletter")
+    #     st.text_input("Email Address")
+    #     st.button("Subscribe", key="footer_subscribe")
+    #     st.markdown("Stay updated with our latest research and innovations")
     
     # Copyright row
     st.markdown("""
